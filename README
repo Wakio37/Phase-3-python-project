@@ -1,0 +1,36 @@
+Flask and ReactJS Starter
+
+This project contains a simple web application that combines a Flask backend with a ReactJS frontend. 
+
+Follow these instructions to set up and run the application.
+    
+## Setting up the Flask Backend
+
+cd flask-api
+## Install project dependencies 
+    pipenv install
+## Activate this project's virtualenv
+    pipenv shell
+## run flask application 
+    flask --app src/app.py run 
+
+The Flask server will start running at http://127.0.0.1:5000/.
+
+# Setting up the ReactJS Frontend
+
+cd react-ui
+
+## Install the required Node.js packages:
+    npm install
+## Start the React development server:
+    npm start
+
+The React app will be available at http://localhost:3000/.
+
+## Project Structure
+flask-api/ - Contains the Flask backend code.
+react-ui/ - Contains the ReactJS frontend code.
+
+## Running the Application
+You now have both the Flask backend and ReactJS frontend running. The React app communicates with the Flask backend to provide a seamless web application experience.
+
